@@ -58,15 +58,6 @@
 }
 .LPright > .icons {
     scale: 12;
-    animation: roll .5s ease-out;
-}
-@keyframes roll {
-    0% {
-        translate: 50vw 0;
-    }
-    100% {
-        translate: 0 0;
-    }
 }
 .icons .row {
     padding: .1rem;
