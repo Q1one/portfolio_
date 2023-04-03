@@ -142,7 +142,7 @@
     .WCard .info:hover h2 ,
     .WCard .info:focus h2 {
         font-size: 2.5rem;
-        -webkit-text-stroke: 1px #ff6a00;
+        -webkit-text-stroke: 1px #fff;
     }
     .WCard .info:hover p,
     .WCard .info:focus p {
