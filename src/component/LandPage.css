@@ -1,0 +1,89 @@
+.LandPage {
+    display: flex;
+    flex-direction: row;
+
+    height: 100vh;
+
+    user-select: none;
+}
+
+
+
+
+
+.LPleft {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Carter One', cursive;
+    font-size: 7rem;
+    font-weight: 800;
+}
+.LPleft span {
+    padding: 2.5px;
+
+    filter: drop-shadow(1px 0 #fff);
+
+    color: #000;
+}
+.LPleft:hover span {
+    animation: rotate 1.5s;
+}
+@keyframes rotate {
+    25% {
+        transform: rotate(25deg);
+    }
+    50% {
+        transform: scale(1.2);
+        padding: 5px;
+    }
+    75% {
+        transform: rotate(-25deg);
+    }
+}
+
+
+
+
+
+.LPright {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden;
+}
+.LPright > .icons {
+    scale: 12;
+    animation: roll .5s ease-out;
+}
+@keyframes roll {
+    0% {
+        translate: 50vw 0;
+    }
+    100% {
+        translate: 0 0;
+    }
+}
+.icons .row {
+    padding: .1rem;
+    display: flex;
+    gap: .5rem;
+}
+.row .icon {
+    /* Change color to #fff*/
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(321deg) brightness(108%) contrast(101%);
+}
+.row .icon:hover {
+    /* Change color to #ff6a00*/
+    filter: invert(58%) sepia(70%) saturate(5559%) hue-rotate(1deg) brightness(106%) contrast(106%);
+    animation: show 850ms;
+}
+@keyframes show {
+    50% {
+        scale: 1.1;
+    }
+}

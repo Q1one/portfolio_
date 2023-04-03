@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "name": "Japan Guide",
+        "desc": "A complete guide to travel in Tokyo",
+        "finished": false,
+        "link": "https://q1-japan.netlify.app",
+        "imgUrl": "https://i.ibb.co/RjhDnZW/japan.png"
+    },
+    {
+        "id": 2,
+        "name": "Cards",
+        "desc": "Base for a new exposition webpage",
+        "finished": false,
+        "link": "https://idyllic-phoenix-aa7ccd.netlify.app",
+        "imgUrl": "https://i.ibb.co/hY5wcF5/card.png"
+    },
+    {
+        "id": 3,
+        "name": "F1 Project",
+        "desc": "F1 Preaseason project",
+        "finished": false,
+        "link": "https://q1-f1-project.netlify.app",
+        "imgUrl": "https://i.ibb.co/myxdXBH/f1.png"
+    },
+    {
+        "id": 4,
+        "name": "Safo Speech",
+        "desc": "Remember F11",
+        "finished": false,
+        "link": "https://stately-starship-87ee04.netlify.app",
+        "imgUrl": "https://i.ibb.co/QdgL2Ln/safo.png"
+    }
+]
