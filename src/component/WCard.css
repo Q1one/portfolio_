@@ -59,12 +59,14 @@
 }
 .WCard h2 {
     font-size: 7rem;
+    line-height: 7rem;
     -webkit-text-stroke: 3px #ff6a00;
 
     color: #fff;
 }
 .WCard p {
     font-size: 1.4rem;
+    line-height: 1.4rem;
     color: #fff;
 }
 .WCard .info:hover h2,
@@ -106,19 +108,19 @@
         flex: 0;
         gap: 0;
 
-        height: 10rem;
-
-        padding-left: 2rem;
+        padding-left: 1rem;
 
         align-items: start;
         text-align: left;
     }
     .WCard h2 {
         font-size: 6rem;
+        line-height: 6rem;
         color: #ff6a00;
         -webkit-text-stroke: 2px #ff6a00;
     }
     .WCard p {
+        line-height: 1.3rem;
         font-size: 1.3rem;
     }
     .WCard .info:hover h2 ,
@@ -133,16 +135,15 @@
 
 
 @media screen and (max-width: 600px) {
-    .WCard .info {
-        height: 8rem;
-    }
     .WCard h2 {
         font-size: 4rem;
+        line-height: 4rem;
         color: #ff6a00;
         -webkit-text-stroke: 1px #ff6a00;
     }
     .WCard p {
         font-size: 1rem;
+        line-height: 1rem;
     }
     .WCard .info:hover h2 ,
     .WCard .info:focus h2 {
