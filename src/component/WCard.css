@@ -113,7 +113,8 @@
     }
     .WCard h2 {
         font-size: 6rem;
-        -webkit-text-stroke: 2px #fff;
+        color: #ff6a00;
+        -webkit-text-stroke: 2px #ff6a00;
     }
     .WCard p {
         font-size: 1.3rem;
