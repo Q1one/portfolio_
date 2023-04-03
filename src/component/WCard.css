@@ -78,7 +78,7 @@
     font-size: 6rem;
     -webkit-text-stroke: 3px #fff;
 
-    color: #ff6a00;
+    color: #fff;
 }
 .WCard .info:hover p,
 .WCard .info:focus p {
@@ -142,8 +142,6 @@
     .WCard .info:hover h2 ,
     .WCard .info:focus h2 {
         font-size: 2.5rem;
-        color: #fff;
-        -webkit-text-stroke: 1px #fff;
     }
     .WCard .info:hover p,
     .WCard .info:focus p {
