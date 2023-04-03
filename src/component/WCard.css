@@ -106,6 +106,8 @@
         flex: 0;
         gap: 0;
 
+        height: 8rem;
+
         padding-left: 2rem;
 
         align-items: start;
@@ -131,6 +133,9 @@
 
 
 @media screen and (max-width: 600px) {
+    .WCard .info {
+        height: 6rem;
+    }
     .WCard h2 {
         font-size: 4rem;
         color: #ff6a00;
