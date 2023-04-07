@@ -5,7 +5,7 @@
         "desc": "A complete guide to travel in Tokyo",
         "finished": false,
         "link": "https://j-qtokyo.netlify.app/",
-        "imgUrl": "https://ibb.co/xsVFB66"
+        "imgUrl": "https://i.ibb.co/dcnmVDD/Captura-de-pantalla-25.png"
     },
     {
         "id": 2,
@@ -29,6 +29,6 @@
         "desc": "Basic math operations",
         "finished": true,
         "link": "https://j-qcalculator.netlify.app/",
-        "imgUrl": "https://ibb.co/GQwstCZ"
+        "imgUrl": "https://i.ibb.co/fdR8nr3/Captura-de-pantalla-24.png"
     }
 ]
