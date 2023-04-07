@@ -4,8 +4,8 @@
         "name": "Japan Guide",
         "desc": "A complete guide to travel in Tokyo",
         "finished": false,
-        "link": "https://q1-japan.netlify.app",
-        "imgUrl": "https://i.ibb.co/RjhDnZW/japan.png"
+        "link": "https://j-qtokyo.netlify.app/",
+        "imgUrl": "https://ibb.co/xsVFB66"
     },
     {
         "id": 2,
@@ -25,10 +25,10 @@
     },
     {
         "id": 4,
-        "name": "Safo Speech",
-        "desc": "Remember F11",
-        "finished": false,
-        "link": "https://stately-starship-87ee04.netlify.app",
-        "imgUrl": "https://i.ibb.co/QdgL2Ln/safo.png"
+        "name": "Calculator",
+        "desc": "Basic math operations",
+        "finished": true,
+        "link": "https://j-qcalculator.netlify.app/",
+        "imgUrl": "https://ibb.co/GQwstCZ"
     }
 ]
