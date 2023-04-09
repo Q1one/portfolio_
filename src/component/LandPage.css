@@ -14,36 +14,24 @@
 .LPleft {
     flex: 1;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 
-    font-family: 'Carter One', cursive;
-    font-size: 7rem;
-    font-weight: 800;
+    position: relative;
 
     overflow: hidden;
 }
-.LPleft span {
-    padding: 2.5px;
-
-    filter: drop-shadow(1px 0 #fff);
-
-    color: #000;
+.LPleft > .name {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    font-size: 4rem;
 }
-.LPleft:hover span {
-    animation: rotate 1.5s;
-}
-@keyframes rotate {
-    25% {
-        transform: rotate(25deg);
-    }
-    50% {
-        transform: scale(1.2);
-        padding: 5px;
-    }
-    75% {
-        transform: rotate(-25deg);
-    }
+.iGroup {
+    position: absolute;
+    bottom: .5rem;
 }
 
 
@@ -55,29 +43,35 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    
+    position: relative;
 
     overflow: hidden;
 }
-.LPright > .icons {
-    scale: 12;
+.LPright > .icon {
+    --time: 1s;
+    animation: move 3s infinite;
 }
-.icons .row {
-    padding: .1rem;
-    display: flex;
-    gap: .5rem;
+.icon:nth-child(0) {
+    animation-delay: calc(var(--time)/1);
 }
-.row .icon {
-    /* Change color to #fff*/
-    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(321deg) brightness(108%) contrast(101%);
+.icon:nth-child(1) {
+    animation-delay: calc(var(--time)/2);
 }
-.row .icon:hover {
-    /* Change color to #ff6a00*/
-    filter: invert(58%) sepia(70%) saturate(5559%) hue-rotate(1deg) brightness(106%) contrast(106%);
-    animation: show 850ms;
+.icon:nth-child(2) {
+    animation-delay: calc(var(--time)/3);
 }
-@keyframes show {
+.icon:nth-child(3) {
+    animation-delay: calc(var(--time)/4);
+}
+@keyframes move {
+    from, to {
+        transform: rotate(-5deg);
+        translate: 0 -5rem;
+    }
     50% {
-        scale: 1.1;
+        transform: rotate(5deg);
+        translate: 0 5rem;
     }
 }
 
@@ -85,44 +79,32 @@
 
 
 
-
-
-
-@media screen and (max-width: 1100px) {
-    .LPleft {
-        font-size: 5rem;
+@media screen and (max-width: 950px) {
+    .LPleft > .name {
+        font-size: 3rem;
     }
-    .LPright > .icons {
-        scale: 8;
-    } 
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 800px) {
     .LandPage {
         flex-direction: column;
         background-image: linear-gradient(180deg, #000 50%,  #fff 50%);
     }
-    .LPleft span {
+    .LandPage .name {
         color: #fff;
     }
-    .row .icon {
-        /* to #000 */
-        filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(125deg) brightness(98%) contrast(102%);
-    }
-    
-    .LPright > .icons {
+    .iGroup {
         display: flex;
-        flex-direction: row;
-        scale: 5;
+        flex-direction: column;
+        top: 0;
+        bottom: 0;
+        right: 0;
     }
 }
 
 
 @media screen and (max-width: 450px) {
-    .LPleft {
-        font-size: 4rem;
+    .LPleft > .name {
+        font-size: 2rem;
     }
-    .LPright > .icons {
-        scale: 4;
-    } 
 }

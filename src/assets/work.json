@@ -9,14 +9,6 @@
     },
     {
         "id": 2,
-        "name": "Cards",
-        "desc": "Base for a new exposition webpage",
-        "finished": false,
-        "link": "https://idyllic-phoenix-aa7ccd.netlify.app",
-        "imgUrl": "https://i.ibb.co/hY5wcF5/card.png"
-    },
-    {
-        "id": 3,
         "name": "F1 Project",
         "desc": "F1 Preaseason project",
         "finished": false,
@@ -24,7 +16,7 @@
         "imgUrl": "https://i.ibb.co/myxdXBH/f1.png"
     },
     {
-        "id": 4,
+        "id": 3,
         "name": "Calculator",
         "desc": "Basic math operations",
         "finished": true,
