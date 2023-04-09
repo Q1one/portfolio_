@@ -16,13 +16,13 @@ function LandPage() {
 
                         <div className="iGroup">
                             <a href="#">
-                                <FiMail size={40} color="#ff6a00"/>
+                                <FiMail size={45} color="#ff6a00"/>
                             </a>
                             <a href="https://github.com/Q1one">
-                                <FaGithub size={40} color="#ff6a00"/>
+                                <FaGithub size={45} color="#ff6a00"/>
                             </a>
                             <a href="https://www.instagram.com/jquiroz___/">
-                                <FaInstagram size={40} color="#ff6a00"/>
+                                <FaInstagram size={45} color="#ff6a00"/>
                             </a>
                         </div>
                     </div>
