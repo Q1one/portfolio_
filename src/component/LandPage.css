@@ -96,6 +96,9 @@
 
 @media screen and (max-width: 450px) {
     .LPleft > .name {
-        font-size: 2.5rem;
+        font-size: 2.8rem;
+    }
+    .social {
+        size: 40;
     }
 }
