@@ -23,15 +23,17 @@
 .LPleft > .name {
     display: flex;
     flex-direction: column;
-    align-items: start;
-    justify-content: center;
-    font-size: 4rem;
-}
-.iGroup {
-    position: absolute;
-    bottom: .5rem;
-}
 
+    font-size: 4rem;
+    line-height: 6rem;
+}
+.im {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+
+    width: 100%;
+}
 
 
 
@@ -88,12 +90,23 @@
         flex-direction: column;
         background-image: linear-gradient(180deg, #000 50%,  #fff 50%);
     }
-    .LandPage .name {
-        color: #fff;
-    }
-    .iGroup {
+    .LPleft > .name {
         display: flex;
         flex-direction: column;
+    
+        font-size: 4rem;
+        line-height: 6rem;
+
+        color: #fff;
+    }
+    .im {
+        display: block;
+    
+        width: 100%;
+    }
+    .iGroup {
+        position: absolute;
+        display: flex;
         top: 0;
         bottom: 0;
         right: 0;

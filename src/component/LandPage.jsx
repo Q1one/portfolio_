@@ -11,21 +11,27 @@ function LandPage() {
         <div className="LandPage" id="LandPage">
             <div className="LPleft">
                 <div className="name">
-                    <h2>I'm</h2>
+                    <div className="im">
+                        <h2>I'm</h2>
+
+                        <div className="iGroup">
+                            <a href="#">
+                                <FiMail size={50} color="#ff6a00"/>
+                            </a>
+                            <a href="https://github.com/Q1one">
+                                <FaGithub size={50} color="#ff6a00"/>
+                            </a>
+                            <a href="https://www.instagram.com/jquiroz___/">
+                                <FaInstagram size={50} color="#ff6a00"/>
+                            </a>
+                        </div>
+                    </div>
+
                     <h1>JOSEPH</h1>
+                    
+
                 </div>
                 
-                <div className="iGroup">
-                    <a href="#">
-                        <FiMail size={50} color="#ff6a00"/>
-                    </a>
-                    <a href="https://github.com/Q1one">
-                        <FaGithub size={50} color="#ff6a00"/>
-                    </a>
-                    <a href="https://www.instagram.com/jquiroz___/">
-                        <FaInstagram size={50} color="#ff6a00"/>
-                    </a>
-                </div>
             </div>
             <div className="LPright">
                 <FaHtml5 className="icon" size={150} color="ff6a00"/>
