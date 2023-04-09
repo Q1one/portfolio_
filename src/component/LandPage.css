@@ -59,11 +59,11 @@
 @keyframes move {
     from, to {
         transform: rotate(-5deg);
-        translate: 0 -5rem;
+        translate: 0 -3rem;
     }
     50% {
         transform: rotate(5deg);
-        translate: 0 5rem;
+        translate: 0 3rem;
     }
 }
 
