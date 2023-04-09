@@ -92,10 +92,3 @@
         color: #fff;
     }
 }
-
-
-@media screen and (max-width: 450px) {
-    .LPleft > .name {
-        font-size: 2.8rem;
-    }
-}
