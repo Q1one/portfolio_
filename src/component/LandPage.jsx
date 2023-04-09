@@ -1,36 +1,43 @@
 import "./LandPage.css"
 
-import { GrReactjs } from "react-icons/gr";
-import { GrHtml5 } from "react-icons/gr";
-import { GrCss3 } from "react-icons/gr";
-import { GrNode } from "react-icons/gr";
+// ICONS
+import { FaInstagram, FaGithub, FaReact, FaNodeJs, FaHtml5 } from "react-icons/fa";
+import { RiCss3Line } from "react-icons/ri";
+import { FiMail } from "react-icons/fi";
+FiMail
 
 function LandPage() {
     return (
         <div className="LandPage" id="LandPage">
-            <style>
-                @import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
-            </style>
             <div className="LPleft">
-                <span>J</span>
-                <span>O</span>
-                <span>S</span>
-                <span>E</span>
-                <span>P</span>
-                <span>H</span>
-                <span>'s</span>
+                <div className="name">
+                    <div className="im">
+                        <h2>I'm</h2>
+
+                        <div className="iGroup">
+                            <a href="#">
+                                <FiMail size={50} color="#ff6a00"/>
+                            </a>
+                            <a href="https://github.com/Q1one">
+                                <FaGithub size={50} color="#ff6a00"/>
+                            </a>
+                            <a href="https://www.instagram.com/jquiroz___/">
+                                <FaInstagram size={50} color="#ff6a00"/>
+                            </a>
+                        </div>
+                    </div>
+
+                    <h1>JOSEPH</h1>
+                    
+
+                </div>
+                
             </div>
             <div className="LPright">
-                <div className="icons">
-                    <div className="row">
-                        <GrHtml5 className="icon"/>
-                        <GrCss3 className="icon"/>
-                    </div>
-                    <div className="row">
-                        <GrReactjs className="icon"/>
-                        <GrNode className="icon"/>  
-                    </div>
-                </div>
+                <FaHtml5 className="icon" size={150} color="ff6a00"/>
+                <RiCss3Line className="icon" size={150} color="#ff6a00"/>
+                <FaReact className="icon" size={150} color="ff6a00"/>
+                <FaNodeJs className="icon" size={150} color="ff6a00"/>
             </div>
         </div>
     )

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
 .NavBar {
     position: fixed;
 
@@ -19,15 +21,20 @@
 
 
 
-.NavBar .icon,
-.noBar .icon {
+.NavBar > .nIcon,
+.noBar > .nIcon {
     display: flex;
     align-items: center;
     justify-content: center;
     
     position: absolute;
 
+    z-index: 200;
+
     cursor: pointer;
+
+    border: none;
+    outline: none;
 
     width: 4.5rem;
     aspect-ratio: 1;
@@ -36,7 +43,7 @@
 
     background: #fff;
 }
-.icon .home {
+.nIcon > .home {
     scale: 2;
     filter: invert(0%) sepia(100%) saturate(0%) hue-rotate(49deg) brightness(97%) contrast(101%);
 }

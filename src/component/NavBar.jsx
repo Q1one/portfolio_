@@ -1,4 +1,3 @@
-import { GrReactjs } from "react-icons/gr";
 import { GrHome } from "react-icons/gr";
 import { useState } from 'react'
 
@@ -17,14 +16,9 @@ function NavBar() {
 
     return (
         <div className={show ? "NavBar" : "noBar"}>
-
-            <style>
-                @import
-                url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
-            </style>
-            <div className={"icon"} onClick={showOption} >
+            <button className={"nIcon"} onClick={showOption} >
                 <GrHome className="home"/>
-            </div>
+            </button>
 
             <div onClick={showOption} className={show ? "showNav" : "hideNav"}>
                 <NavBtn url={"#LandPage"} name="I'm Joseph"/>

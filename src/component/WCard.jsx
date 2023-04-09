@@ -1,6 +1,6 @@
 import "./WCard.css";
 
-import works from "./work.json";
+import works from "./../assets/work.json";
 
 function WCard() {
   return (
